@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="reg.js"></script>
+	<link rel="stylesheet" href="reg.css">
+</head>
+<body background="file:///F:/bhavana/Servlet/WebSite_4RegApp/bg.jpg">
+<form action="RegProcess" name="form">
+	<fieldset style="color:#F39C12">
+		<legend><h1>Registration Page</h1></legend>
+	<center>
+		<table cellpadding="5px">
+	
+		<tbody>	
+		<font size="3px">
+		<tr>
+			<td><label for="n1"><b>FullName:</label></td>
+			<td><input type="text" name="n1" id="n1" placeholder="FullName" required="required"></td>
+		</tr>
+		<tr>
+			<td><label for="n2"><b>UserId:</label ></td>
+			<td><input type="text" name="n2" id="n2" placeholder="UserId" required="required"></td>
+		</tr>
+		<tr>
+			<td><label for="n3"><b>Password:</label></td>
+			<td><input type="Password" name="n3" id="n3" placeholder="Password" required="required"></td>
+		</tr>
+		<tr>
+			<td><label for="n4"><b>DOB:</label></td>
+			<td><input  name="n4" id="n4" placeholder="DOB" readonly="readonly">*give yyyy-mm-dd format</td>
+		</tr>
+		<tr>
+			<td><label for="n5"><b>Gender:</label></td>
+			<td><input type="Radio" value="Male" id="n5" name="n5">Male
+				<input type="Radio" value="Female" id="n5" name="n5">Female</td>
+		</tr>
+		<tr>
+			<td><label for="n6"><b>Languages:</label></td>
+			<td><input type="checkbox" value="Marathi" id="n6" name="n6">Marathi
+				<input type="checkbox" value="Hindi" id="n6" name="n6">Hindi
+				<input type="checkbox" value="English" id="n6" name="n6">English</td>
+		</tr>
+		<tr>
+			<td><label for="n7"><b>Qualification:</label></td>
+			<td><select name="n7">
+				<option value="Ug" name="n7" id="n7">UG</option>
+				<option value="Pg" name="n7" id="n7">PG</option>
+				<option value="PhD" name="n7" id="n7">Phd</option>
+			</select></td>
+		</tr>
+		<td><label for="n8"><b>Address:</label></td>
+		<td><textarea rows="3" cols="25" placeholder="Address" name="n8" id="n8"></textarea></td>
+	
+		<tr>
+			<td>
+				<input type="submit" value="Register" name="n9">&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="reset" value="Clear" name="n10">
+				</center>
+		</td>
+		</tr>
+		</font>
+		</tbody>
+	</table>
+	</center>
+	</fieldset>
+</form>
+</body>
